@@ -1,0 +1,9 @@
+<form [formGroup]="todoForm" (ngSubmit)="guardarInfo()">
+    <label>Nombre</label>
+    <input type="text" name="nombre" formControlName="nombre">
+    
+    <label>Apellido</label>
+    <input type="text" name="apellido" formControlName="apellido">
+
+    <button (click)="guardarInfo()">Guardar</button>
+</form>
