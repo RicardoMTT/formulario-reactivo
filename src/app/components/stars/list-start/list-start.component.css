@@ -1,0 +1,28 @@
+p {
+  margin: none;
+}
+section {
+  height: 100%;
+}
+section .fila {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+}
+section .fila .elemento {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 20%;
+  height: 50px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.one {
+  background-color: black;
+}
+.two {
+  background-color: green;
+}
+.thre {
+  background-color: yellow;
+}
